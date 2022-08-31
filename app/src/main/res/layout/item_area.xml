@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<data>
+    <variable
+        name="areaobject"
+        type="android.example.evalleyapp.ModelArea" />
+</data>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{areaobject.name}"
+            android:textStyle="bold"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{areaobject.address}"
+            android:textSize="22dp"
+            app:textAllCaps="true" />
+
+
+
+            <Button
+                android:id="@+id/book_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:layout_marginBottom="4dp"
+                android:text="Book" />
+
+            <Button
+                android:id="@+id/button_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:text="Review" />
+
+
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
