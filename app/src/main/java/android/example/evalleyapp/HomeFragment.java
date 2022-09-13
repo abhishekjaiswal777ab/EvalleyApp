@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -32,7 +34,7 @@ public class HomeFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     ImageSlider imageSlider;
-    Button button;
+    ImageButton  imageButton;
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -70,7 +72,7 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_home, container, false);
         imageSlider=view.findViewById(R.id.image_slider);
-        button=view.findViewById(R.id.bot_button);
+        imageButton=view.findViewById(R.id.bot_button);
         ArrayList<SlideModel> images=new ArrayList<>();
         images.add(new SlideModel(R.drawable.mandi,null));
         images.add(new SlideModel(R.drawable.market,null));
@@ -79,7 +81,7 @@ public class HomeFragment extends Fragment {
         images.add(new SlideModel(R.drawable.dustbin,null));
 
         imageSlider.setImageList(images, ScaleTypes.CENTER_CROP);
-        button.setOnClickListener(new View.OnClickListener() {
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent  intent=new Intent(getActivity(),BotActivity.class);

@@ -25,8 +25,21 @@
         <entry key="..\:/Users/91704/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/navheader.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/91704/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/user_msg_rv_item.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/91704/AndroidStudioProjects/EvalleyApp2/app/src/main/res/menu/iconmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/drawable/circle.xml" value="0.1435" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/drawable/oval.xml" value="0.1435" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/drawable/round.xml" value="0.1435" />
         <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_area.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_bot.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/activity_slots.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/bot__msg_rv_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/fragment_about.xml" value="0.22" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/item_area.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/item_slots.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/abhis/AndroidStudioProjects/EvalleyApp2/app/src/main/res/layout/navheader.xml" value="0.1" />
       </map>
     </option>
   </component>

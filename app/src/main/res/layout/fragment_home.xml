@@ -18,14 +18,14 @@
 
     </com.denzcoskun.imageslider.ImageSlider>
 
-    <Button
+    <ImageButton
         android:id="@+id/bot_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ChatBot"
+        android:src="@drawable/bot_button"
         android:layout_marginTop="650dp"
         android:layout_marginLeft="250dp"
-       />
+        />
 
 
 </FrameLayout>

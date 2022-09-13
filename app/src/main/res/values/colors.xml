@@ -13,4 +13,5 @@
     <color name="bot_back_color">#203757</color>
     <color name="user_back_color">#6965FF</color>
     <color name="fab_color">#686AFF</color>
+    <color name="light_blue">#ADD8E6</color>
 </resources>
